@@ -711,7 +711,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "about":
         buttons = [[
             InlineKeyboardButton('𝚄𝙿𝙳𝙰𝚃𝙴𝚂', callback_data='updates'),
-            InlineKeyboardButton('ʀᴇᴘᴏ', url='https://t.me/filesharebotusers'),
+            InlineKeyboardButton('𝙼𝚘𝚟𝚒𝚎 𝙶𝚛𝚘𝚞𝚙', url='https://t.me/+m2Ogsnl7a6YzYzhl'),
         ],[
             InlineKeyboardButton('ʜᴏᴍᴇ', callback_data='start'),
             InlineKeyboardButton('ᴄʟᴏsᴇ', callback_data='close_data')
@@ -729,8 +729,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "updates":
         buttons = [[
-            InlineKeyboardButton('𝚂𝚄𝙿𝙿𝙾𝚁𝚃', url='https://t.me/filesharebotusers'),
-            InlineKeyboardButton('𝚄𝙿𝙳𝙰𝚃𝙴𝚂', url='https://t.me/filesharebotusers')
+            InlineKeyboardButton('𝚂𝚄𝙿𝙿𝙾𝚁𝚃', url='https://t.me/CMRMOVIEZZ'),
+            InlineKeyboardButton('𝚄𝙿𝙳𝙰𝚃𝙴𝚂', url='https://t.me/cmr_moviez')
             ],[
             InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='about')
         ]]
@@ -753,7 +753,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "ownerane":
         buttons = [[
-            InlineKeyboardButton('📞 Cᴏɴᴛᴀᴄᴛ', url='https://t.me/TGxIRFAN'),
+            InlineKeyboardButton('📞 Cᴏɴᴛᴀᴄᴛ', url='https://t.me/CMRMOVIEZZ'),
             InlineKeyboardButton('«𝙱𝙰𝙲𝙺', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -931,8 +931,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "deploy":
         buttons = [[
-           InlineKeyboardButton('ʀᴇᴘᴏ', url='https://t.me/BF_Bots'),
-           InlineKeyboardButton('ᴏᴡɴᴇʀ', url='https://t.me/BetterProffesor')
+           InlineKeyboardButton('𝙼𝚘𝚟𝚒𝚎 𝙶𝚛𝚘𝚞𝚙', url='https://t.me/+m2Ogsnl7a6YzYzhl'),
+           InlineKeyboardButton('ᴏᴡɴᴇʀ', url='https://t.me/CMRMOVIEZZ')
         ], [
             InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='help')
         ]]
