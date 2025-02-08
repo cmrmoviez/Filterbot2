@@ -148,3 +148,15 @@ LOG_STR += ("Long IMDB storyline enabled." if LONG_IMDB_DESCRIPTION else "LONG_I
 LOG_STR += ("Spell Check Mode Is Enabled, bot will be suggesting related movies if movie not found\n" if SPELL_CHECK_REPLY else "SPELL_CHECK_REPLY Mode disabled\n")
 LOG_STR += (f"MAX_LIST_ELM Found, long list will be shortened to first {MAX_LIST_ELM} elements\n" if MAX_LIST_ELM else "Full List of casts and crew will be shown in imdb template, restrict them by adding a value to MAX_LIST_ELM\n")
 LOG_STR += f"Your current IMDB template is {IMDB_TEMPLATE}"
+"""
+ADMINS=1488782455 6719882299
+API_HASH=ea2b6408b97572ef70b34dded7f998f2
+API_ID=29056505
+BOT_TOKEN=7155564130:AAEBMH-HtCUNFAjsr06X2LbY0_cbG4SSoMs
+CHANNELS=-1002106862558
+DATABASE_NAME=Cluster0
+DATABASE_URI=mongodb+srv://Cluster0:Cluster0@cluster0.dpqzrsb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+LOG_CHANNEL=-1002106862558
+SUPPORT_CHAT=-1002106862558
+
+"""
